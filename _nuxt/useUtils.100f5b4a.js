@@ -1,0 +1,1 @@
+const s=()=>{const o=()=>{},u=l=>l?new Intl.NumberFormat("id-ID",{minimumFractionDigits:0}).format(l):0;let t=0,e=-1,i=null;return{sayHello:o,pointFormat:u,countClickListFn:(l,...n)=>{e!=l&&(e=l,t=0,i&&clearTimeout(i),i=null),t++,i==null&&(i=setTimeout(()=>{t>n.length&&(t=n.length),t!==0&&(t>1&&n[0](),t=t-1,n[t]()),t=0,i&&clearTimeout(i),i=null},200))}}};export{s as u};
