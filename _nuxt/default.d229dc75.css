@@ -1,1 +1,0 @@
-ul li{color:#b6b6b6;padding:8px;position:relative}ul li.active{background-color:#001f3f;color:#fff}ul li.active:after{background-color:#fff;border-bottom-right-radius:10px;border-top-right-radius:10px;content:"";height:100%;left:0;position:absolute;top:0;width:3.5px}ul li a{align-items:center;display:flex;width:100%}
